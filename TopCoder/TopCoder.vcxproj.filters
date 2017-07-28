@@ -13,12 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\Easy">
-      <UniqueIdentifier>{62804172-6456-4b61-ad22-12e1ce2fd768}</UniqueIdentifier>
+    <Filter Include="Header Files\MediumProblems">
+      <UniqueIdentifier>{fdcc4935-c2a2-4384-8341-a863dbd880a2}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -27,8 +24,11 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="AB.h">
-      <Filter>Header Files\Easy</Filter>
+    <ClInclude Include="ABBA.h">
+      <Filter>Header Files\MediumProblems</Filter>
+    </ClInclude>
+    <ClInclude Include="EasyProblems\AB\AB.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -38,5 +38,10 @@
     <ClCompile Include="TopCoder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="readme.txt">
+      <Filter>Header Files\MediumProblems</Filter>
+    </Text>
   </ItemGroup>
 </Project>

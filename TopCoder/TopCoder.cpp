@@ -2,14 +2,14 @@
 //
 
 #include "stdafx.h"
-#include "AB.h"
+#include "ABBA.h"
 #include <iostream>
 
 using namespace std;
 int main()
 {
-	AB ab;
-	cout << ab.createString(10, 12);
+	ABBA ab;
+	cout << ab.canObtain("BBBBABABBBBBBA", "BBBBABABBABBBBBBABABBBBBBBBABAABBBAA");
 	cin.get();
     return 0;
 }
