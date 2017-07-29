@@ -16,6 +16,18 @@
     <Filter Include="Header Files\MediumProblems">
       <UniqueIdentifier>{fdcc4935-c2a2-4384-8341-a863dbd880a2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\EasyProblems">
+      <UniqueIdentifier>{bea8e3e7-e44f-43ae-a16f-faf53f09771c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MediumProblems\ABBA">
+      <UniqueIdentifier>{7a97fa64-94f2-4924-99e2-138bf9624868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EasyProblems\AB">
+      <UniqueIdentifier>{13a77dd5-5583-4e12-af28-9652e13f91e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\EasyProblems\ABBADiv1">
+      <UniqueIdentifier>{499212ba-7a49-4a85-9627-00f00ca8da7f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -25,10 +37,13 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ABBA.h">
-      <Filter>Header Files\MediumProblems</Filter>
+      <Filter>Header Files\MediumProblems\ABBA</Filter>
     </ClInclude>
-    <ClInclude Include="EasyProblems\AB\AB.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="..\..\..\..\..\Desktop\EasyProblems\AB\AB.h">
+      <Filter>Header Files\EasyProblems\AB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\EasyProblems\ABBADiv1\ABBADiv1.h">
+      <Filter>Header Files\EasyProblems\ABBADiv1</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -41,7 +56,13 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="readme.txt">
-      <Filter>Header Files\MediumProblems</Filter>
+      <Filter>Header Files\MediumProblems\ABBA</Filter>
+    </Text>
+    <Text Include="..\topcoder2\easyproblems\ab\readme.txt">
+      <Filter>Header Files\EasyProblems\AB</Filter>
+    </Text>
+    <Text Include="..\topcoder2\easyproblems\abbadiv1\readme.txt">
+      <Filter>Header Files\EasyProblems\ABBADiv1</Filter>
     </Text>
   </ItemGroup>
 </Project>
